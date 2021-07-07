@@ -74,7 +74,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-zip": "^5.1.0",
     "gulp.spritesmith": "^6.12.1",
-    "husky": "^6.0.0",
+    "husky": "^7.0.1",
     "imagemin-giflossy": "^5.1.10",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
