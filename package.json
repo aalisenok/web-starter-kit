@@ -32,7 +32,8 @@
     "test:styles": "stylelint --fix --color ./src/**/*.scss",
     "test:js": "eslint --fix --color ./src/**/*.js",
     "bem-c": "bem create -l src/view/components",
-    "bem-l": "bem create -l src/view/layout"
+    "bem-l": "bem create -l src/view/layout",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
