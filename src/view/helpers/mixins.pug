@@ -1,0 +1,7 @@
+mixin icon(icon, classNameA)
+  svg(class=`${classNameA} ${classNameA}--${icon}`)
+    use(xlink:href="./img/sprites/svg/sprite.svg#" + icon)
+
+mixin link(href, name, classNameA)
+  li(class=`${classNameA}__item`)
+    a(href=href, class=`${classNameA}__link`)= name

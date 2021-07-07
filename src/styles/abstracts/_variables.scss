@@ -1,0 +1,25 @@
+// Color
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+// Fonts
+$font-family: 'Roboto', sans-serif;
+// Sizes
+$text-size: 1.6rem;
+
+// Line-Height
+$line-height: 1.5;
+
+// Container
+$max-width: 1170px;
+$min-width: 320px;
+
+// Media
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px,
+) !default;
