@@ -32,8 +32,7 @@
     "test:styles": "stylelint --fix --color ./src/**/*.scss",
     "test:js": "eslint --fix --color ./src/**/*.js",
     "bem-c": "bem create -l src/view/components",
-    "bem-l": "bem create -l src/view/layout",
-    "prepare": "husky install"
+    "bem-l": "bem create -l src/view/layout"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -103,7 +102,7 @@
   },
   "lint-staged": {
     "*.pug": "pug-lint",
-    "*.scss": "stylelint --fix --color --syntax=scss",
+    "*.scss": "stylelint --fix --color",
     "*.js": "eslint --fix --color",
     "*.{js,md,html,css,pug}": "prettier --write"
   }
