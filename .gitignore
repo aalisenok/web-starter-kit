@@ -19,6 +19,6 @@ Thumbs.db
 __MACOSX/
 yarn.lock
 package-lock.json
+.husky
 dist
 build
-.husky
