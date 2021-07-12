@@ -1,2 +1,2 @@
 import './import/_layout';
-import './import/_components';
+import './import/_components;
