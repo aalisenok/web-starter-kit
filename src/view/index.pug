@@ -1,9 +1,10 @@
 extends templates/default
 block variables
-  - const title = "Main Page"
+  - const title = "Main Page";
 block content
   .wrap
     include layout/header/header
+    include layout/main/main
     include layout/footer/footer
 block scripts
   script(src='js/script.js')

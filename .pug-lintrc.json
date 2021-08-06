@@ -60,6 +60,5 @@
   "validateDivTags": true,
   "validateExtensions": null,
   "validateIndentation": 2,
-  "validateLineBreaks": "CRLF",
   "validateSelfClosingTags": true
 }

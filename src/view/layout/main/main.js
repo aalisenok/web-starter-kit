@@ -1,0 +1,13 @@
+import Swiper from 'swiper/bundle';
+this.swiper = new Swiper('.swiper-container', {
+  loop: true,
+  direction: 'horizontal',
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});

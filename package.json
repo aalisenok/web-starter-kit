@@ -106,5 +106,8 @@
     "*.scss": "stylelint --fix --color",
     "*.js": "eslint --fix --color",
     "*.{js,md,html,css,pug}": "prettier --write"
+  },
+  "dependencies": {
+    "swiper": "^6.8.1"
   }
 }

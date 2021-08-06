@@ -1,3 +1,55 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+.header {
+  padding: 10px 0;
+  background: var(--white);
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.6);
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__menu {
+    position: absolute;
+    top: 77px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    background: var(--white);
+    transition: height 0.5s ease-in-out;
+    &.active {
+      height: 100%;
+    }
+    @include respond-to(md) {
+      position: static;
+      z-index: 0;
+      display: flex;
+      flex-direction: row;
+      height: inherit;
+    }
+  }
+  &__item {
+    margin: 15px 0;
+    &:not(:first-child) {
+      @include respond-to(md) {
+        margin: 0 0 0 30px;
+      }
+    }
+  }
+  &__link {
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+    &:hover {
+      background: var(--gray);
+    }
+  }
+}
